@@ -1,0 +1,84 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+}
+h1,h2,h3,h4,h5,h6{
+
+}
+header{
+    background-image: url("image/pexels-pixabay-159844.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    padding:0% 10%;
+    background-color: rgba(0,0,0,0.3);
+}
+.navbar-brand img{
+    weight: 60px; 
+    height: auto;
+}
+
+.banner-contaier{
+    color:white
+}
+.banner-contaier h1{
+    font-size: 3.5rem;
+    background: rgba(7,101,189,0.8);
+    padding: 20px;
+   
+}
+
+
+.nav-link{
+       color:white;
+}
+
+.nav-link hover{
+    background:white;
+}
+
+#feature{
+    padding: 5% 10%;
+    background: #e8ded2;
+}
+.featucer-col{
+    border: 1px solid #ff02c0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .4s;
+}
+
+.featucer-col:hover{
+     transform: scale(1.1);
+     box-shadow: 2px 6px 5px black;
+}
+
+.icon-style{
+    background: #ff02c0;
+    color: white;
+    padding: 15px;
+}
+
+.hr-style{
+    /* border: 5px dotted white;
+    border-bottom: none;
+    width: 70px; */
+    border:none;
+    border-top:1px dotted #f00; 
+    color:#fff;
+    background-color:#fff;
+    height:1px;
+    width:50%;
+}
+#about-me{
+    padding: 5% 10%;
+    background: #e8ded2;
+}

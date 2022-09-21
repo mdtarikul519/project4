@@ -1,80 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    
-<header>
-    <nav class="navbar navbar-expand-lg  px-5  ">
-        <a class="navbar-brand" href="#">
-        <img src="https://www.studywithanis.com/wp-content/uploads/2017/01/logo.png" alt="logo">
-    </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <div class="container-fluid">
+    <header>
+      <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand ps-5" href="#">
+          <img style="height: 50px; weight:auto" src="https://www.studywithanis.com/wp-content/uploads/2017/01/logo.png"
+            alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home</span></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto pe-5 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</span></a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">Blog</a>
             </li>
-           
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
           </ul>
-        </div>
-      </nav>
-      
-      <section id="banner">
-        <div class="banner-contaierr">
-            <div class="banner-contents">
-                <h1>Learn something new</h1>
-                <button>Tutorils</button>
-                <button>Subscrive</button>
-            </div>
 
+        </div>
+
+      </nav>
+      <section id="banner">
+        <div class="banner-contaier d-flex justify-content-center" style="margin-top:250px;">
+          <div class="banner-contents text-center ">
+            <h1 class="font-weight-bolder mb-5">Learn something new</h1>
+            <button class="btn btn-lg btn-primary"><i class="fas fa-play me-2"></i> Tutorils</button>
+            <button class="btn btn-lg btn-primary"><i class="fab fa-youtube me-2"></i>Subscrive</button>
+          </div>
         </div>
 
       </section>
+    </header>
+  </div>
+  <main>
+    <section id="feature" class="text-center">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="featucer-col">
+            <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+            <h4 class="font-weight-bold">free to use</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate unde temporibus tempora nam quisquam
+              consequatur saepe possimus cumque quod in.
+              dolore sequi repudiandae laboriosam?</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="featucer-col">
+            <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+            <h4 class="font-weight-bold">free to use</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate unde temporibus tempora nam quisquam
+              consequatur saepe possimus cumque quod in.
+              dolore sequi repudiandae laboriosam?</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="featucer-col">
+            <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+            <h4 class="font-weight-bold">free to use</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate unde temporibus tempora nam quisquam
+              consequatur saepe possimus cumque quod in.
+              dolore sequi repudiandae laboriosam?</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
-</header>
 
-<main>
-
-</main>
-
-<footer>
-
-</footer>
-
+       <section id="about-me">
+              <div class="section title ">
+                   <h4 class="text-center">About me</h4>
+                   <hr class="hr-style">
+              </div>
+       </section>
+  </main>
 
 
+  <!-- <header>
+    <nav class="navbar navbar-expand-md ">
+      <a class="navbar-brand ps-5" href="#">
+        <img src="https://www.studywithanis.com/wp-content/uploads/2017/01/logo.png" alt="logo">
+      </a>
+      <button class="navbar-toggler " style="z-index:99999; border-color: red;" type="button" data-toggle="collapse"
+        data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <div class="collapse navbar-collapse border border-1" id="navbarNavDropdown">
+        <ul class="navbar-nav border border-1 pe-5" style="margin:auto 0 auto auto !important;">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        </ul>
+      </div>
+    </nav>
 
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" 
-     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+
+  </header> -->
+
+  <main>
+    <!-- <section id="banner">
+      <div class="banner-contaier  ">
+        <div class="banner-contents ">
+          <h1 class="justify-content-center"> Learn something new</h1>
+          <button>Tutorils</button>
+          <button>Subscrive</button>
+        </div>
+
+      </div>
+
+    </section> -->
+
+  </main>
+
+  <footer>
+
+  </footer>
+
+
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>
