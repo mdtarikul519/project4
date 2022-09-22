@@ -82,3 +82,6 @@ header{
     padding: 5% 10%;
     background: #e8ded2;
 }
+.arcive-desc span{
+     font-weight: 700 !important;
+}
