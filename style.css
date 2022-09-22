@@ -85,3 +85,13 @@ header{
 .arcive-desc span{
      font-weight: 700 !important;
 }
+#feedback{
+    padding: 5%;
+    background:#5eaaa8;
+}
+
+.feedback-image{
+    width: 140px;
+    height: auto;
+    margin-bottom: 5px;
+}
